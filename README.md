@@ -1,6 +1,6 @@
 # React Redux Dark Mode & Counter App
 
-## Getting Started
+
 
 ```shell
 npm install

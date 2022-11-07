@@ -1,0 +1,50 @@
+.btn {
+  padding: 0.8em 2.1em 0.8em;
+  margin: 5px;
+  border-radius: 10px;
+  color: #fbdedb;
+  background-color: transparent !important;
+  display: inline-block !important;
+  background: $brand-primary;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 800;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  position: relative;
+}
+.btn:hover,
+.btn:focus {
+  opacity: 0.9;
+}
+.btn:active {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.btn.block {
+  display: block !important;
+}
+.btn.circular {
+  border-radius: 50em !important;
+}
+.btn.primary {
+  max-width: 10px;
+  background-color: $brand-primary;
+}
+.btn.outline {
+  max-width: 160px;
+  background-color: transparent;
+  border: 1px solid $brand-primary;
+  color: $brand-primary;
+  border-radius: 0;
+}
